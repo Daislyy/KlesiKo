@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+
+# Next.js Build Output & Cache
+.next/
+*/.next/
+out/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing & Coverage
+coverage/
+
+# Typescript build info
+*.tsbuildinfo
+
+# Project documentation / internal notes
+prd.md
+*.prd.md
+
+
+# Uploaded files (cover buku dari admin)
+BE/uploads/
